@@ -7,12 +7,10 @@
 // sum(20) -> 28
 
 
-let a
-
+let a=0
 function sum(x) {
-    a = x
     return function (x) {
-        a += x
+        a +=x
         return a
     }
 }
